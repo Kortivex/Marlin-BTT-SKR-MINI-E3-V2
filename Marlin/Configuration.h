@@ -113,7 +113,7 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
-#define BAUDRATE 115200
+#define BAUDRATE 250000
 
 //#define BAUD_RATE_GCODE     // Enable G-code M575 to set the baud rate
 
@@ -659,9 +659,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  15.7986
-    #define DEFAULT_Ki   1.4006
-    #define DEFAULT_Kd  44.5520
+    #define DEFAULT_Kp  15.4636
+    #define DEFAULT_Ki   1.4007
+    #define DEFAULT_Kd  42.6797
   #endif
 #endif
 
